@@ -1,5 +1,5 @@
 
-ES.prot <- function (data, n1, n2, f)
+ES.prot.v4 <- function (data, n1, n2, f)
 {
   if (!is.matrix(data)) {
     warning(gettextf("'%s' is not a matrix", as.character(match.call()$data),
