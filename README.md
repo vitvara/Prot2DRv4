@@ -3,7 +3,7 @@
 Prot2DRv4 is a package that base on prot2D from bioconductor that already removed for their library.
 This package is made for R version 4.2 due to the original package have lot of error that cause by validators for entering parameters
 
-If who want to contribute make a pull request and I will check on it or you can just copy and do it by your own :).
+If you find my reposiroty and want to contribute you can make a pull request and I will check on it or you can just copy and do it by your own :).
 
 - Method that was implemented.
 ```R
