@@ -1,6 +1,7 @@
 
 ES.prot.v4 <- function (data, n1, n2, f)
 {
+  library(prot2D)
   if (!is.matrix(data)) {
     warning(gettextf("'%s' is not a matrix", as.character(match.call()$data),
                      domain = NA))

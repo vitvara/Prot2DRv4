@@ -10,6 +10,7 @@
 #'
 #' @examples
 Norm.qt.v4 <- function(data, n1, n2, plot=T) {
+  library(prot2D)
   if (is.data.frame(data) & is.matrix(data)) {
     warning(gettextf("'%s' is neither a dataframe nor a matrix",
                      as.character(match.call()$data), domain = NA))
