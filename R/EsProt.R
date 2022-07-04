@@ -23,6 +23,8 @@ ES.prot.v4 <- function (data, n1, n2, f)
                      as.character(match.call()$data), as.character(match.call()$f),
                      domain = NA))
   }
+  n1 <- as.numeric(n1)
+  n2 <- as.numeric(n2)
   c1 <- data[, 1:n1]
   c2 <- data[, (n1 + 1):(n1 + n2)]
   m.c1 <- apply(c1, 1, mean)
