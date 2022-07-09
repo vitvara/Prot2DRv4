@@ -26,8 +26,8 @@ Norm.qt.v4 <- function(data, n1, n2, plot=T) {
   
   if (plot) {
     par(mfrow = c(2, 1))
-    RIplot(data, n1 = n1, n2 = n2, main = "Raw data")
-    RIplot(mat.qt, n1 = n1, n2 = n2, main = "Normalized data")
+    RIplot.v4(data, n1 = n1, n2 = n2, main = "Raw data")
+    RIplot.v4(mat.qt, n1 = n1, n2 = n2, main = "Normalized data")
     par(mfrow = c(1, 1))
   }
   norm <- log2(mat.qt)
